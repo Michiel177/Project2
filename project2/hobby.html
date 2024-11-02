@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobby's</title>
+  <link rel="stylesheet" href="stijl.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Michiel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobby.html">Hobby's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cv.html">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+  
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="img/lopen.jpg" class="d-block w-100" alt="Eerste slide"> 
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="img/gamen.png" class="d-block w-100" alt="Tweede slide"> 
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Tweede slide headline.</h1>
+            <p class="opacity-75">Inhoud voor de tweede slide van de carousel.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="img/f1foto4.png" class="d-block w-100" alt="Derde slide"> 
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Derde slide headline.</h1>
+            <p class="opacity-75">Inhoud voor de derde slide van de carousel.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <img src="img/vissen.png" class="d-block w-100" alt="Vierde slide"> 
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Vierde slide headline.</h1>
+            <p class="opacity-75">Inhoud voor de vierde slide van de carousel.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Slide 5 -->
+      <div class="carousel-item">
+        <img src="img/tvfoto.png" class="d-block w-100" alt="Vijfde slide">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Vijfde slide headline.</h1>
+            <p class="opacity-75">Inhoud voor de vijfde slide van de carousel.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Slide 6 -->
+      <div class="carousel-item">
+        <img src="img/kafefoto.png" class="d-block w-100" alt="Zesde slide"> 
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Zesde slide headline.</h1>
+            <p class="opacity-75">Inhoud voor de zesde slide van de carousel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+  <div class="container marketing">
+  
+    <hr class="featurette-divider">
+  
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Lopen 
+          <span class="text-body-secondary"></span>
+        </h2>
+        <br>
+        <p class="lead">Ik loop graag doordeweeks in de natuur, het liefst op rustige plekken zoals bossen en natuurgebieden. Deze loop sessies geven me rust en helpen me in het moment te leven, wat zowel mentaal als fysiek goed voor me is. Bewegen in de natuur houdt me fit en helpt mijn energie op peil te houden. Zo vind ik balans tussen ontspanning en gezondheid, iets wat ik steeds meer waardeer.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/lopen.jpg" alt="Featurette image" class="featurette-image img-fluid mx-auto" width="500" height="500" style="object-fit: cover; border-radius: .3rem;">
+      </div>
+    </div>
+  
+    <hr class="featurette-divider">
+  
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Gamen<span class="text-body-secondary"></span></h2>
+        <br>
+        <p class="lead">In mijn vrije tijd speel ik graag games. Het is voor mij dé manier om te ontspannen en me even in een andere wereld te verliezen. Vooral actie- en schietspellen hebben mijn voorkeur. Gamen helpt me niet alleen te ontspannen, maar verbetert ook mijn probleemoplossend vermogen en creativiteit. Daarnaast blijf ik via multiplayer-games in contact met vrienden, wat zorgt voor veel plezier en samenwerking. Gamen is voor mij een ideale balans tussen ontspanning en uitdaging.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/gamen.png" alt="Featurette image" class="featurette-image img-fluid mx-auto" width="500" height="500" style="object-fit: cover; border-radius: .3rem;">
+      </div>
+    </div>
+  
+    <hr class="featurette-divider">
+  
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Vissen</h2> <span class="text-body-secondary"></span></h2>
+        <br>
+        <p class="lead">Tijdens de zomer ga ik graag vissen. Het rustige wachten aan de waterkant geeft me een gevoel van kalmte en verbindt me met de natuur. Het geluid van het water en de vogels om me heen zorgt voor ontspanning, terwijl het wachten op een vangst voor spanning zorgt. Vissen is voor mij een perfecte ontsnapping uit de dagelijkse drukte, vooral op zonnige vakantiedagen, wanneer ik volledig kan genieten van het buitenleven.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/vissen.png" alt="Featurette image" class="featurette-image img-fluid mx-auto" width="500" height="500" style="object-fit: cover; border-radius: .3rem;">
+      </div>
+    </div>
+  
+    <hr class="featurette-divider">
+  
+    
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Andere <span class="text-body-secondary"></span></h2>
+        <br>
+        <p class="lead">In mijn vrije tijd vind ik het heerlijk om gewoon te ontspannen en series of tv te kijken. Soms geniet ik van een goede Formule 1-race, wat ik ontzettend interessant vind. Het is geweldig om de spanning van de sport te volgen en te zien hoe de coureurs presteren. Daarnaast ga ik in het weekend af en toe met vrienden naar een café. Samen wat drinken en bijpraten zorgt altijd voor een gezellige tijd en geeft me energie voor de nieuwe week. Het zijn eenvoudige dingen, maar ze maken mijn vrije tijd compleet.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/tv.png" alt="Featurette image" class="featurette-image img-fluid mx-auto" width="500" height="500" style="object-fit: cover; border-radius: .3rem;">
+      </div>
+    </div>
+  
+    <hr class="featurette-divider">
+  
+  </div>
+  
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Michiel Bleys</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://www.linkedin.com/in/michiel-bleys-568b622bb/" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn" width="24" height="24" style="object-fit: cover;">
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://github.com/Michiel177" target="_blank">
+            <img src="img/github.png" alt="Github" width="24" height="24" style="object-fit: cover;">
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="mailto:r0989622@student.thomasmore.be" target="_blank">
+            <img src="img/Mailicoon.png" alt="Facebook" width="24" height="24" style="object-fit: cover;">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+</main>
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

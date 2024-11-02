@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    .contact-form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #e8e8e8;
+    }
+    .contact-form {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Michiel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobby.html">Hobby's</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contact-form-container">
+    <form class="contact-form" action="https://tm-statweb.be/forms.php" method="POST">
+      <h2 class="text-center mb-4">Neem contact op</h2>
+
+      <div class="row mb-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Voornaam" aria-label="First name" required>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Achternaam" aria-label="Last name" required>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="jouwemail@example.com" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="subject" class="form-label">Skill</label>
+        <select class="form-select" id="subject" aria-label="Select onderwerp">
+          <option selected>Selecteer een skill</option>
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">Bootstrap</option>
+          <option value="3">C#</option>
+          <option value="3">SQL</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="comments" class="form-label">Vraag</label>
+        <textarea class="form-control" placeholder="Laat een bericht achter..." id="comments" style="height: 120px"></textarea>
+      </div>
+
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Verstuur</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Michiel Bleys</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://www.linkedin.com/in/michiel-bleys-568b622bb/" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn" width="24" height="24" style="object-fit: cover;">
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://github.com/Michiel177" target="_blank">
+            <img src="img/github.png" alt="Github" width="24" height="24" style="object-fit: cover;">
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="mailto:r0989622@student.thomasmore.be" target="_blank">
+            <img src="img/Mailicoon.png" alt="Facebook" width="24" height="24" style="object-fit: cover;">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
